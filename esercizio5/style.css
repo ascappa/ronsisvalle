@@ -17,10 +17,8 @@ form button {
 }
 
 .my-body {
-  font-family:monospace;
+  font-family: monospace;
 }
-
-
 
 .form-wrapper {
   display: flex;
@@ -33,23 +31,11 @@ form button {
   border-radius: 1rem;
 }
 
-.my-body {
-  table {
-    border: 1px gray solid;
-    border-collapse: collapse;
-  }
-  caption {
-    caption-side: bottom;
-    text-align: center;
-  }
-  th,
-  tr,
-  td {
-    border: 1px gray solid;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    padding: 0;
-  }
+.table {
+  padding: 1rem;
+  border: 2px solid #424243;
+}
 
+article h1 {
+  text-align: center;
 }
