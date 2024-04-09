@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.my-form {
+  max-width: 700px;
+}
+
+.risultati {
+  display: flex;
+  gap: 2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 2rem;
+}

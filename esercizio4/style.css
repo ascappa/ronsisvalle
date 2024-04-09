@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100dvh;
+  background: repeating-linear-gradient(30deg, #bfdbfe, #bfdbfe 1px, white 1px, white 20px);
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+}
+
+form button {
+  flex-shrink: 0;
+}
+
+.my-body {
+  font-family:monospace;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #eff6ff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.my-body {
+  table {
+    border: 1px gray solid;
+    border-collapse: collapse;
+  }
+  caption {
+    caption-side: bottom;
+    text-align: center;
+  }
+  th,
+  tr,
+  td {
+    border: 1px gray solid;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 0;
+  }
+
+}
